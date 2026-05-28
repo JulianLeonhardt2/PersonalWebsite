@@ -8,6 +8,7 @@
       name="description"
       content="Personal homepage of Julian Leonhardt — CS student at Northeastern and varsity rower."
     />
+    <!-- this icon link references a file that does not exist in images/directory. Either remove the link or add a proper image -->
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Julian Leonhardt</title>
@@ -17,6 +18,9 @@
       <a class="site-logo" href="./index.html">
         <h1>Julian Leonhardt</h1>
       </a>
+      <!-- This nav looks identical on every page in each html file -->
+      <!-- There is no visual cue for which page the visitor is currently on -->
+       <!-- Add a 'aria-current=page' to the current page's nav link so add semantics and picked up by screen readers in addition to some CSS rule for highlighting -->
       <nav class="site-nav">
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -79,6 +83,7 @@
               to come up with an idea to help younger students learn how to
               advocate for themselves in the classroom.
             </p>
+            <!-- There is no link in the href portion -->
             <div class="project-links">
               <a href="#" target="_blank" rel="noopener">Live Demo</a>
               <a href="#" target="_blank" rel="noopener">GitHub</a>
@@ -109,6 +114,7 @@
               more accessible.
             </p>
             <div class="project-links">
+              <!-- There is no link in the href portion -->
               <a href="#" target="_blank" rel="noopener">Live Demo</a>
               <a href="#" target="_blank" rel="noopener">GitHub</a>
             </div>
@@ -135,6 +141,7 @@
               mentally.
             </p>
             <div class="project-links">
+              <!-- There is no link in the href portion -->
               <a href="#" target="_blank" rel="noopener">Live Demo</a>
               <a href="#" target="_blank" rel="noopener">GitHub</a>
             </div>
@@ -177,6 +184,9 @@
       </section>
       <!--Goals section-->
     </main>
+    <!-- Just noticed the <header> and <footer> are copy-pasted across index.html, hobbies.html, and ai.html. 
+      If you update a nav link or add a page, you'd have to remember to update all three. 
+      Not sure what clean fix but worth looking into JS templating so future edits would show in all pages without manually doing so. -->
     <footer class="site-footer">
       <div class="footer-content">
         <p class="footer-tagline">

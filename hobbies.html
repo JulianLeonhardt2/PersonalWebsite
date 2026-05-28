@@ -1,3 +1,4 @@
+<!-- The name of this file not match with the content which is about your timeline journey -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,6 +9,7 @@
       name="description"
       content="Julian Leonhardt's journey through ice hockey, rowing, and Northeastern — the experiences behind the goals."
     />
+    <!-- this icon link references a file that does not exist in images/directory. Either remove the link or add a proper image -->
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Hobbies — Julian Leonhardt</title>
@@ -41,7 +43,10 @@
         <p class="timeline-help">
           Click a milestone to read the story behind it.
         </p>
-
+        <!-- Just wanted to say this is really clean. Using a real button means
+          it works with keyboard and screen readers without extra JS. 
+          The aria-expanded and aria-controls also match up with the right panel below. 
+          I also like that you kept things split like class for styling, aria for accessibility, data-target for the JS. -->
         <ol class="timeline-track">
           <li class="timeline-step">
             <button
