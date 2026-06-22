@@ -1,8 +1,9 @@
 # Personal Website
-
 **Author:** Julian Leonhardt
 
 **Class:** [Introduction to Web Development — Summer 2026](https://johnguerra.co/classes/webDevelopment_online_summer_2026/)
+
+Comment from Peer Reviewer: Great job on this project!
 
 ## Project Objective
 
